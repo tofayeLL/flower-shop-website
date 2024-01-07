@@ -47,7 +47,7 @@ button {
     font-weight: 800;
     line-height: normal;
     margin-bottom: 25px;
-    
+
 
 }
 
@@ -59,7 +59,7 @@ button {
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 25px;
-    
+
 }
 
 /* main related shared styles */
@@ -71,7 +71,8 @@ main section {
 
 /* banner or header Related styles */
 
-header {
+header,
+#hotdeal {
     background-color: rgba(229, 84, 115, 0.10);
 }
 
@@ -154,4 +155,40 @@ button:hover {
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
+}
+
+
+
+/* hot deal section related styles */
+
+.hotdeal-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0;
+}
+
+#hotdeal .hotdeal-text {
+    width: 75%;
+    max-width: 550px;
+    text-align: center;
+}
+#hotdeal .hotdeal-img{
+    max-width: 318px;
+}
+#hotdeal .hotdeal-img img{
+    width: 100%;
+}
+#hotdeal .hotdeal-text *{
+    margin-bottom: 24px;
+}
+
+#hotdeal .hotdeal-text h3 {
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    line-height: normal;
+}
+#hotdeal .hotdeal-text h3 .important{
+    color: #E55473;
 }
